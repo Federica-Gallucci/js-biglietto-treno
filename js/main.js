@@ -33,9 +33,9 @@ if (
   userDistance > 0
 ) {
   if (userAge < 18) {
-    finalPrice = price * 0.2;
+    finalPrice = price * 0.8;
   } else if (userAge > 65) {
-    finalPrice = price * 0.4;
+    finalPrice = price * 0.6;
   } else {
     finalPrice = price;
   }
